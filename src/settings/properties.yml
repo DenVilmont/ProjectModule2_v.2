@@ -1,0 +1,339 @@
+!!settings.Config
+characteristic:
+  Rabbit:
+    !!settings.Characteristic 'WEIGHT': 2.0
+    !!settings.Characteristic 'SATURATION': 0.45
+    !!settings.Characteristic 'SPEED': 2.0
+    !!settings.Characteristic 'POPULATION': 150.0
+  Goat:
+    !!settings.Characteristic 'WEIGHT': 60.0
+    !!settings.Characteristic 'SATURATION': 10.0
+    !!settings.Characteristic 'SPEED': 3.0
+    !!settings.Characteristic 'POPULATION': 140.0
+  Sheep:
+    !!settings.Characteristic 'WEIGHT': 70.0
+    !!settings.Characteristic 'SATURATION': 15.0
+    !!settings.Characteristic 'SPEED': 3.0
+    !!settings.Characteristic 'POPULATION': 140.0
+  Horse:
+    !!settings.Characteristic 'WEIGHT': 400.0
+    !!settings.Characteristic 'SATURATION': 60.0
+    !!settings.Characteristic 'SPEED': 4.0
+    !!settings.Characteristic 'POPULATION': 20.0
+  Boar:
+    !!settings.Characteristic 'WEIGHT': 400.0
+    !!settings.Characteristic 'SATURATION': 50.0
+    !!settings.Characteristic 'SPEED': 2.0
+    !!settings.Characteristic 'POPULATION': 50.0
+  Eagle:
+    !!settings.Characteristic 'WEIGHT': 6.0
+    !!settings.Characteristic 'SATURATION': 1.0
+    !!settings.Characteristic 'SPEED': 3.0
+    !!settings.Characteristic 'POPULATION': 20.0
+  Mouse:
+    !!settings.Characteristic 'WEIGHT': 0.05
+    !!settings.Characteristic 'SATURATION': 0.01
+    !!settings.Characteristic 'SPEED': 1.0
+    !!settings.Characteristic 'POPULATION': 500.0
+  Plant:
+    !!settings.Characteristic 'WEIGHT': 1.0
+    !!settings.Characteristic 'VEGETATION': 100.0
+    !!settings.Characteristic 'POPULATION': 200.0
+  Caterpillar:
+    !!settings.Characteristic 'WEIGHT': 0.01
+    !!settings.Characteristic 'SATURATION': 0.01
+    !!settings.Characteristic 'SPEED': 0.0
+    !!settings.Characteristic 'POPULATION': 1000.0
+  Deer:
+    !!settings.Characteristic 'WEIGHT': 300.0
+    !!settings.Characteristic 'SATURATION': 50.0
+    !!settings.Characteristic 'SPEED': 4.0
+    !!settings.Characteristic 'POPULATION': 20.0
+  Fox:
+    !!settings.Characteristic 'WEIGHT': 8.0
+    !!settings.Characteristic 'SATURATION': 2.0
+    !!settings.Characteristic 'SPEED': 2.0
+    !!settings.Characteristic 'POPULATION': 30.0
+  Buffalo:
+    !!settings.Characteristic 'WEIGHT': 700.0
+    !!settings.Characteristic 'SATURATION': 100.0
+    !!settings.Characteristic 'SPEED': 3.0
+    !!settings.Characteristic 'POPULATION': 10.0
+  Wolf:
+    !!settings.Characteristic 'WEIGHT': 50.0
+    !!settings.Characteristic 'SATURATION': 8.0
+    !!settings.Characteristic 'SPEED': 3.0
+    !!settings.Characteristic 'POPULATION': 30.0
+  Boa:
+    !!settings.Characteristic 'WEIGHT': 15.0
+    !!settings.Characteristic 'SATURATION': 3.0
+    !!settings.Characteristic 'SPEED': 1.0
+    !!settings.Characteristic 'POPULATION': 30.0
+  Bear:
+    !!settings.Characteristic 'WEIGHT': 500.0
+    !!settings.Characteristic 'SATURATION': 80.0
+    !!settings.Characteristic 'SPEED': 2.0
+    !!settings.Characteristic 'POPULATION': 5.0
+  Duck:
+    !!settings.Characteristic 'WEIGHT': 1.0
+    !!settings.Characteristic 'SATURATION': 0.15
+    !!settings.Characteristic 'SPEED': 4.0
+    !!settings.Characteristic 'POPULATION': 200.0
+edibility:
+  Deer:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Eagle:
+    Boar: 0
+    Rabbit: 90
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 10
+    Plant: 0
+    Mouse: 90
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 80
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Boar:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 90
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 50
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Buffalo:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Fox:
+    Boar: 0
+    Rabbit: 70
+    Caterpillar: 40
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 0
+    Mouse: 90
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 60
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Duck:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 90
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Horse:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Boa:
+    Boar: 0
+    Rabbit: 20
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 15
+    Plant: 0
+    Mouse: 40
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 10
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Goat:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Rabbit:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Mouse:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 90
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Wolf:
+    Boar: 15
+    Rabbit: 60
+    Caterpillar: 0
+    Bear: 0
+    Deer: 15
+    Fox: 0
+    Plant: 0
+    Mouse: 80
+    Boa: 0
+    Horse: 10
+    Sheep: 70
+    Duck: 40
+    Goat: 60
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 10
+  Bear:
+    Boar: 50
+    Rabbit: 80
+    Caterpillar: 0
+    Bear: 0
+    Deer: 80
+    Fox: 0
+    Plant: 0
+    Mouse: 90
+    Boa: 80
+    Horse: 40
+    Sheep: 70
+    Duck: 10
+    Goat: 70
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 20
+  Sheep:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+  Caterpillar:
+    Boar: 0
+    Rabbit: 0
+    Caterpillar: 0
+    Bear: 0
+    Deer: 0
+    Fox: 0
+    Plant: 100
+    Mouse: 0
+    Boa: 0
+    Horse: 0
+    Sheep: 0
+    Duck: 0
+    Goat: 0
+    Wolf: 0
+    Eagle: 0
+    Buffalo: 0
+islandLength: 100
+islandWidth: 20
